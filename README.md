@@ -19,7 +19,7 @@ php artisan migrate
 
 ## Notes
 ### NOTE 1
-Theres a problem in the `C:\wamp64\www\localization-template-with-laravel-breeze-and-inertia\vendor\stichoza\google-translate-php\src\GoogleTranslate.php` file because CURLOPT_SSL_VERIFYPEER is not false
+Theres a problem in the `vendor\stichoza\google-translate-php\src\GoogleTranslate.php` file because CURLOPT_SSL_VERIFYPEER is not false
 ```
 public function __construct(string $target = 'en', string $source = null, array $options = [], TokenProviderInterface $tokenProvider = null, bool|string $preserveParameters = false)
 {
